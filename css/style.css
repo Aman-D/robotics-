@@ -11,36 +11,27 @@ body{
     overflow-y: hidden;
 }
 .container{
-display:flex;
-flex-direction: column;
-position: relative;
-
+    display:flex;
+    flex-direction: column;
+    position: relative;
 }
 
 
 .sec{
-height:100vh;
-width:100vw;
-display:flex;
-justify-content: center;
-place-items:center;
-
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    place-items:center;
 }
 
 #sec1{
-background:rgb(165, 42, 42);
-opacity: 1;
-display: flex;
-flex-direction: column;
+    background:rgb(165, 42, 42);
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+}
 
-}
-#sec1 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 30px;
-    font-size: 7rem;
-    color: rgb(197, 128, 0);
-}
 #sec1 button{
     opacity:0;
     color:white;

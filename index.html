@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Robotics Club</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div class="container">
@@ -41,10 +41,12 @@
                     </svg>
                     
             <button onclick="showMenu()">Discover</button></div>
-        <div class="overlay"></div>
-        <div class="content">
-            <div class="sec" id="sec2"></div>
-        </div>
+             <div class="overlay"></div>
+            
+            
+            <div class="content">
+            <section class="sec" id="sec2"></section>
+            </div>
     </div>
  
         
@@ -54,24 +56,7 @@
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenLite.min.js"></script> -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
-
-        <script>
-            const heading = document.querySelectorAll("#heading path");
-            heading.forEach((path,index) =>
-            console.log(`Letter ${index} is ${path.getTotalLength()}`));
-            const tween = new TimelineMax();
-                tween
-                tween.to("#heading path",3,{strokeDashoffset:0})
-                        .to("#sec1 button",1,{opacity:1},3.5);
-            function showMenu(){
-                console.log("object");
-                const tween = new TimelineMax();
-                tween
-                .to(".overlay",0.8,{top:0},0.5)
-                .to(".content",0.9,{top:0},0.50001);
-            
-            }
-        </script>
+        <script src="./js/main.js"></script>
 
 
 
