@@ -8,12 +8,12 @@ body{
     padding:0;
     margin: 0;
     overflow-y: hidden;
-    overflow-y: hidden;
 }
 .container{
     display:flex;
     flex-direction: column;
     position: relative;
+
 }
 
 
@@ -23,6 +23,7 @@ body{
     display:flex;
     justify-content: center;
     place-items:center;
+
 }
 
 #sec1{
@@ -30,8 +31,15 @@ body{
     opacity: 1;
     display: flex;
     flex-direction: column;
-}
 
+}
+#sec1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+    font-size: 7rem;
+    color: rgb(197, 128, 0);
+}
 #sec1 button{
     opacity:0;
     color:white;
@@ -47,6 +55,28 @@ body{
     color:rgb(165, 42, 42);
     cursor: pointer;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 #heading path:nth-child(2){
     stroke-dasharray: 508.55194091796875px;

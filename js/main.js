@@ -12,5 +12,6 @@ const heading = document.querySelectorAll("#heading path");
                 tween
                 .to(".overlay",0.8,{top:0},0.5)
                 .to(".content",0.9,{top:0},0.50001);
+                document.body.style.overflowY = 'scroll';
             
             }
